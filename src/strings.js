@@ -30,7 +30,7 @@ export const cardData = {
     // overview
     export const overviewBodies = {
         overviewBody1: "My name is Zachary Isais, and I am an entry-level software developer with a strong passion for technology and programming. I recently graduated with an Associate of Science degree in Computer Programming, building upon my foundation in mathematics and physics.",
-        overviewBody2: "My journey into software development began during my time working as a server and bartender. During my time at this position, I discovered a fascination with blockchain technology and smart contracts, particularly on the Ethereum platform. This experience ignited my ambition to transition into a career in software development.",
+        overviewBody2: "My journey into software development began during my time working as a server and bartender. During my time at this position, I discovered a fascination with blockchain technology and smart contracts, particularly on the Ethereum platform. This experience ignited my ambition to transition into a career in software development. I have experience with Java, JavaScript, C#, C++, HTML/CSS, SQL, Python, and Solidity.",
         overviewBody3: "I am enthusiastic about joining a dynamic team where I can contribute my skills and continue to expand my knowledge. I am driven by the excitement of learning new technologies and solving complex problems through code. My goal is to leverage my background in math and physics to approach programming challenges with a unique perspective.",
         overviewBody4: "I am currently seeking opportunities to apply my skills and grow as a professional software developer. Let's connect and explore how we can work together to create innovative solutions!",
     }
