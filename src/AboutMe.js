@@ -81,12 +81,6 @@ function AboutMe() {
                         </Col>
                     </Row>
                     <Row className="contact-info-row">
-                        <Col className='rowColTitle'>Phone</Col>
-                        <Col className='contact-info'>
-                            <a href={contact.phone}>(850) 377-0609</a>
-                        </Col>
-                    </Row>
-                    <Row className="contact-info-row">
                         <Col className='rowColTitle'>Location</Col>
                         <Col className='contact-info'>{contact.location}</Col>
                     </Row>

@@ -16,6 +16,7 @@ import volBase from './images/volBase.png';
 import volZk from './images/volZk.png';
 import hodlr from './images/hodlr.png';
 import portfolio from './images/portfolio.png';
+import tokenSweeper from './images/tokenSweeper.png';
 
 function Portfolio() {
     return (
@@ -26,7 +27,7 @@ function Portfolio() {
 function langTabs() {
     return (
         <Tabs className="mb-3" justify >
-            <Tab eventKey="java" title="Java Apps">
+            <Tab eventKey="java" title="Java">
                 {javaTab()}
             </Tab>
             <Tab eventKey="web" title="HTML/CSS/JS">
@@ -77,8 +78,11 @@ function solTab() {
     return (
         <Container>
             <Row>
+                <Col>{projCard(tokenSweeper, cardData.ttlTokenSweeper, cardData.txtTokenSweeper, cardData.linkTokenSweeper)}</Col>
                 <Col>{projCard(volBase, cardData.ttlVolUni, cardData.txtVolUni, cardData.linkVolUni)}</Col>
                 <Col>{projCard(volZk, cardData.ttlVolCake, cardData.txtVolCake, cardData.linkVolCake)}</Col>
+            </Row>
+            <Row>
                 <Col>{projCard(hodlr, cardData.ttlHodlr, cardData.txtHodlr, cardData.linkHodlr)}</Col>
             </Row>
         </Container>
