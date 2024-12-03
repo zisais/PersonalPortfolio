@@ -67,6 +67,15 @@ function AboutMe() {
                                     <td>Graduated</td>
                                 </tr>
                             </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>University</td>
+                                    <td>Western Governors University</td>
+                                    <td>B.S. Computer Science</td>
+                                    <td>2024-Present</td>
+                                    <td>Enrolled</td>
+                                </tr>
+                            </tbody>
                         </Table>
                     </Container>
                 </AccordionBody>
