@@ -17,6 +17,7 @@ import volZk from './images/volZk.png';
 import hodlr from './images/hodlr.png';
 import portfolio from './images/portfolio.png';
 import tokenSweeper from './images/tokenSweeper.png';
+import jobapptracker from './images/jobapptracker.png';
 
 function Portfolio() {
     return (
@@ -30,7 +31,7 @@ function langTabs() {
             <Tab eventKey="java" title="Java">
                 {javaTab()}
             </Tab>
-            <Tab eventKey="web" title="HTML/CSS/JS">
+            <Tab eventKey="web" title="HTML/CSS/JS/PHP">
                 {webTab()}
             </Tab>
             <Tab eventKey="cs" title="C#">
@@ -59,6 +60,7 @@ function webTab() {
             <Row>
                 <Col>{projCard(volumizer, cardData.ttlVol, cardData.txtVolWeb, cardData.linkVolWeb)}</Col>
                 <Col>{projCard(portfolio, cardData.ttlPortfolio, cardData.txtPortfolio, cardData.linkPortfolio)}</Col>
+                <Col>{projCard(jobapptracker, cardData.ttlJobAppTracker, cardData.txtJobAppTracker, cardData.linkJobAppTracker)}</Col>
             </Row>
         </Container>
     )
