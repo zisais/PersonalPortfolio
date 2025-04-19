@@ -24,7 +24,7 @@ function AboutMe() {
                         <Table striped bordered hovered>
                             <thead>
                                 <tr>
-                                    <th>LEVEL</th>
+                                    <th>DEGREE</th>
                                     <th>SCHOOL</th>
                                     <th>MAJOR</th>
                                     <th>TIME ENROLLED</th>
@@ -33,45 +33,18 @@ function AboutMe() {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>High School</td>
-                                    <td>Gulf Breeze High School</td>
-                                    <td>N/A</td>
-                                    <td>2013-2017</td>
-                                    <td>Graduated</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                    <td>University</td>
-                                    <td>University of Denver</td>
-                                    <td>B.S. Physics</td>
-                                    <td>2017-2018</td>
-                                    <td>Transferred</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                    <td>University</td>
-                                    <td>University of West Florida</td>
-                                    <td>B.S. Mathematics</td>
-                                    <td>2019-2020</td>
-                                    <td>Transferred</td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                    <td>University</td>
+                                    <td>Associate in Science</td>
                                     <td>Pensacola State College</td>
-                                    <td>A.S. Computer Programming and Analysis</td>
+                                    <td>Computer Programming and Analysis</td>
                                     <td>2022-2024</td>
                                     <td>Graduated</td>
                                 </tr>
                             </tbody>
                             <tbody>
                                 <tr>
-                                    <td>University</td>
+                                    <td>Bachelor of Science</td>
                                     <td>Western Governors University</td>
-                                    <td>B.S. Computer Science</td>
+                                    <td>Computer Science</td>
                                     <td>2024-Present</td>
                                     <td>Enrolled</td>
                                 </tr>
