@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem, Col, Row, Table, thead, tr, td } from 'react-bootstrap';
 import { overviewBodies, contact } from './strings.js';
 
+import credlyBadge from './images/credly-comptia-network-badge.png';
+
 function AboutMe() {
     return (
         <Accordion defaultActiveKey='bio' alwaysOpen>
@@ -50,6 +52,20 @@ function AboutMe() {
                                 </tr>
                             </tbody>
                         </Table>
+                    </Container>
+                </AccordionBody>
+            </AccordionItem>
+            <AccordionItem eventKey='certifications'>
+                <AccordionHeader>Certifications</AccordionHeader>
+                <AccordionBody>
+                    <Container>
+                        <Row>
+                            <Col>
+                                <a href='https://www.credly.com/badges/38841457-f24e-47cd-8345-644111f90c9a/public_url' target='_blank' rel='noopener noreferrer'>
+                                    <img src={credlyBadge} alt='Credly Comptia Network+ Badge' width='144px' height='144px'/>
+                                </a>
+                            </Col>
+                        </Row>
                     </Container>
                 </AccordionBody>
             </AccordionItem>
